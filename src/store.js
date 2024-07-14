@@ -4,7 +4,7 @@ export const useCounterStore = defineStore('counter', {
   state: () => ({ count: 0 }),
   actions: {
     increment() {
-      console.log('hallo')
+      this.count++;
     },
   },
 })
